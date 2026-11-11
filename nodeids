@@ -1,0 +1,7 @@
+[
+  "tests/test_core.py::test_absent_fact_returns_not_found_without_llm",
+  "tests/test_core.py::test_classifier_categories",
+  "tests/test_core.py::test_in_scope_question_returns_source_passages_and_usage",
+  "tests/test_core.py::test_off_topic_guardrail_blocks_before_llm",
+  "tests/test_core.py::test_unsafe_guardrail_blocks_before_llm"
+]

@@ -1,0 +1,20 @@
+Industrial Maintenance Manual — Revision 1
+
+Centrifugal Pump P-101
+When unusual vibration or abnormal noise is observed, inspect the pump and record vibration readings.
+Record operating pressure, flow rate, bearing temperature, and operating conditions.
+Do not declare a root cause until an inspection has been completed.
+
+Compressor C-202
+The sample maintenance record reports a compressor temperature of 110 degrees Celsius.
+This manual does not specify the normal operating temperature or the maximum permitted temperature.
+Consult the approved equipment datasheet and site procedure before deciding whether the measured temperature is acceptable.
+
+General maintenance safety
+Follow the approved site isolation and lockout/tagout procedure before maintenance work.
+Never bypass protective interlocks, guards, alarms, or emergency stop systems.
+Only authorized and trained personnel may perform maintenance tasks.
+
+Maintenance reports
+A complete report should identify the equipment, observation date, symptoms, operating conditions,
+inspection findings, actions taken, and the person or team responsible.

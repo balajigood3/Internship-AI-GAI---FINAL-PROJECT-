@@ -1,0 +1,44 @@
+{
+  "evaluation_mode": "offline deterministic smoke evaluation",
+  "note": "This baseline validates guardrail and retrieval-control behavior with fake embeddings/generator, including generator abstention when retrieved evidence lacks the requested detail; it is not a live LLM quality score.",
+  "cases": 6,
+  "passed_cases": 6,
+  "pass_rate": 1.0,
+  "average_check_score": 1.0,
+  "token_measurement": "Live provider token counts are collected by run_eval.py; offline baseline has no provider tokens.",
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "estimated_total_cost_usd": 0.0,
+  "results": [
+    {
+      "id": "E01",
+      "expected": "answered",
+      "offline_test": "retrieval and source metadata tested"
+    },
+    {
+      "id": "E02",
+      "expected": "answered",
+      "offline_test": "retrieval and source metadata tested"
+    },
+    {
+      "id": "E03",
+      "expected": "not_found",
+      "offline_test": "retrieval found related passage; fake generator correctly abstained on absent specification"
+    },
+    {
+      "id": "E04",
+      "expected": "blocked_unsafe",
+      "offline_test": "blocked before generator call"
+    },
+    {
+      "id": "E05",
+      "expected": "blocked_off_topic",
+      "offline_test": "blocked before generator call"
+    },
+    {
+      "id": "E06",
+      "expected": "answered",
+      "offline_test": "retrieval and source metadata tested"
+    }
+  ]
+}
